@@ -32,7 +32,10 @@ startup
 
 start
 {
-    if(settings["StartAuto"] && current.playerSprite == 86 && old.playerImageIndex == 0 && current.playerImageIndex > 0)
+    if(settings["StartAuto"] && (
+        (current.playerSprite == 86 && old.playerImageIndex == 0 && current.playerImageIndex > 0) ||
+        (current.playerSprite == 67)
+    ))
     {
         vars.Debug("Starting run");
         return true;
