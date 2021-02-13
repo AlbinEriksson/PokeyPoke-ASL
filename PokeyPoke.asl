@@ -34,7 +34,8 @@ start
 {
     if(settings["StartAuto"] && (
         (current.playerSprite == 86 && old.playerImageIndex == 0 && current.playerImageIndex > 0) ||
-        (current.playerSprite == 67)
+        (current.playerSprite == 67) ||
+        (current.playerSprite == 71)
     ))
     {
         vars.Debug("Starting run");
