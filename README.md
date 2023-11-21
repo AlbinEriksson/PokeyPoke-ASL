@@ -1,4 +1,4 @@
-# PokeyPoke ASL 1.0.1
+# PokeyPoke ASL 1.1
 A LiveSplit autosplitter for PokeyPoke (Demo version)
 
 ## Features
@@ -6,7 +6,7 @@ A LiveSplit autosplitter for PokeyPoke (Demo version)
    * Automatically starts timer when you start moving
  * Split when picking up the spear
  * Split when collecting a gem
-   * You can individually select gem types: blue, red, green and black
+   * You can individually select gem types: blue, ruby, emerald and black
  * Split when entering another area
 
 ## How to install
@@ -24,3 +24,7 @@ If you can't find the autosplitter through LiveSplit, you can install it manuall
  3. Click the "+" button -> Control -> Scriptable Auto Splitter
  4. Double-click the new widget and browse to the ASL file
  5. Adjust the autosplitter settings in the same window
+
+## Missing features
+ * Split on Warp Statue
+ * Load removal
