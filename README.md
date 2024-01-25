@@ -1,4 +1,4 @@
-# PokeyPoke ASL 1.1.1
+# PokeyPoke ASL 1.1.2
 A LiveSplit autosplitter for PokeyPoke (Demo version)
 
 ## Features
